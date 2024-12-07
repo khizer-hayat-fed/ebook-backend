@@ -19,7 +19,7 @@ app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
 
 const corsOptions = {
-  origin: ["http://localhost:3001", "http://localhost:3000"], // Replace with your frontend's URL
+  origin: ["http://localhost:3001", "http://localhost:3000", "https://lucky-cactus-fedaf0.netlify.app"], // Replace with your frontend's URL
   credentials: true, // Enable credentials (cookies, authorization headers)
 };
 
